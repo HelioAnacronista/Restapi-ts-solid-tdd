@@ -1,4 +1,4 @@
-- comandos no terminal
+# comandos no terminal
 
 - instalação das dependecias
 1. npm init -y
@@ -7,5 +7,7 @@
 
 - iniciar o tp
 4. npx tsc -init
+
 ---
 
+# 
