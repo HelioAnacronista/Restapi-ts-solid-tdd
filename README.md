@@ -17,4 +17,6 @@
 - Core server para identificar os tipos de padroes em nossas entidades.
 - depois de definir as entidades vamos partir para fucionalidades
 
-# 
+# commmit agora com Caso de uso (usecases) seria as fucionalidades da nossas entidades
+
+

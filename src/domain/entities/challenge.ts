@@ -1,4 +1,3 @@
-import { type } from "os";
 import { Entity } from "../../core/domain/entity";
 
 //propiedades
@@ -15,7 +14,7 @@ export class Challenge extends Entity<ChallengeProps>{
 
     //nivel de validação etc...
     static create(props: ChallengeProps, id?: string){
-        
+
         const challenge = new Challenge(props)
         return challenge
     }
