@@ -10,4 +10,11 @@
 
 ---
 
+# commit entities 
+- Essa commit é a definição das entidades do problemas. Nessa caso nos buscamos quem são as entidades dentro do nosso problema
+
+# commit tipos da entidades
+- Core server para identificar os tipos de padroes em nossas entidades.
+- depois de definir as entidades vamos partir para fucionalidades
+
 # 
