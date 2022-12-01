@@ -44,4 +44,8 @@ npm i @types/jest -D
 ```
 
 ---
+(lidar com error de forma fucional conceito de maybe)
+
+# Fazer validação de existencia da entidade sem db usando o repository
+- fazemos os contratos para os db que vamos usar (com interfaces)
 

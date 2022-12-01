@@ -5,6 +5,11 @@ export abstract class Entity<T> {
     protected _id: string;
     public props : T;
 
+
+    get id() {
+        return this._id;
+    }
+
     //crypto instacia um id ser n há algum id
     constructor ( props:  T,  id?: string ) {
         this._id = id ?? crypto.randomUUID( );
