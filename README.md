@@ -17,6 +17,31 @@
 - Core server para identificar os tipos de padroes em nossas entidades.
 - depois de definir as entidades vamos partir para fucionalidades
 
-# commmit agora com Caso de uso (usecases) seria as fucionalidades da nossas entidades
+# commmit com Caso de uso (usecases) seria as fucionalidades da nossas entidades
+- Fazemos as fucionalidades das nossas entidaes
 
+# commmit para TDD metodologia de testes
+- metodologia de testes faremos os teste sem precisar fazer rota, db e etc...
+
+- instalar o jest e depedencias
+```shell
+npm i jest @swc/core @swc/jest -D
+```
+
+- iniciar a config do jest
+```shell
+npx i jest --init
+```
+
+- jest trabalhar com ts
+```shell
+npm i ts-node -D
+```
+
+- jest para suportar e entender o ts (tipagem)
+```shell
+npm i @types/jest -D
+```
+
+---
 

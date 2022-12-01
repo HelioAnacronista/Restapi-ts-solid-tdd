@@ -5,9 +5,9 @@ type CreateChallengeSubmissionRequest = {
    challengeId: string;
 }
 
-class CreateChallengeSubmission {
+export class CreateChallengeSubmission {
    //criaçao de uma Submission
-   run( { studentId, challengeId }: CreateChallengeSubmissionRequest ) {
+   async run( { studentId, challengeId }: CreateChallengeSubmissionRequest ) {
 
       const submission = Submission.create({
          studentId,
@@ -16,5 +16,5 @@ class CreateChallengeSubmission {
 
       return submission
    }
-   
+
 }
